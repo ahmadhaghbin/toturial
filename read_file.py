@@ -17,8 +17,8 @@ if __name__ == '__main__':                 #read phython files
     plt.title('Wind Speed Profile')
     plt.ylim (0,max(wind_speed)+5)
     plt.xlim (0,len(wind_speed))
-    plt.show()          #print the figure
-
+    #plt.show()          #print the figure
+    plt.savefig('WS.png')
     #print(wind_speed)
     #columns = list(data.columns)
     # wind_speed = list(data["Wind Speed"])
